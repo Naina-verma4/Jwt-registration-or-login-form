@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet"
+      href="{{ url_for('static', path='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>Welcome, {{ name }} 🎉</h1>
+
+    <p class="success">
+        Login Successful
+    </p>
+
+    <div class="user-info">
+        <p><strong>Name:</strong> {{ username }}</p>
+    </div>
+
+    <a href="/" class="btn">
+        Home
+    </a>
+
+</div>
+
+</body>
+</html>
